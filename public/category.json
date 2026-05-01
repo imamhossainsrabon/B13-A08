@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Accessories",
+    "slug": "accessories"
+  },
+  {
+    "id": 2,
+    "name": "Outdoor",
+    "slug": "outdoor"
+  },
+  {
+    "id": 3,
+    "name": "Beach Gear",
+    "slug": "beach-gear"
+  },
+  {
+    "id": 4,
+    "name": "Footwear",
+    "slug": "footwear"
+  },
+  {
+    "id": 5,
+    "name": "Skincare",
+    "slug": "skincare"
+  },
+  {
+    "id": 6,
+    "name": "Electronics",
+    "slug": "electronics"
+  },
+  {
+    "id": 7,
+    "name": "Pool Gear",
+    "slug": "pool-gear"
+  },
+  {
+    "id": 8,
+    "name": "Clothing",
+    "slug": "clothing"
+  }
+]

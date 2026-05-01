@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/5XpeP98q6R64SAQ5JokgYnew5gqPADTdjZvm7KhJ.jpg?v=1777669256",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Straw Hat",
+    "brand": "CoastWear",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 25,
+    "description": "Lightweight straw hat designed to keep you cool and shaded at the beach.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/boho-beach-hut-straw-hat-wide-brim-hat-beach-hat-boho-woven-straw-beach-sun-hat-dome-top-desert-beige-42829038649656.jpg?v=1777669296",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "Cooling Water Bottle",
+    "brand": "AquaCool",
+    "price": 22,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Insulated water bottle that keeps drinks cold during hot summer days.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/1.jpg?v=1777669341",
+    "category": "Outdoor"
+  },
+  {
+    "id": 4,
+    "name": "Portable Beach Umbrella",
+    "brand": "ShadePro",
+    "price": 45,
+    "rating": 4.5,
+    "stock": 12,
+    "description": "Compact beach umbrella with strong UV protection and easy setup.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/1.avif?v=1777669389",
+    "category": "Beach Gear"
+  },
+  {
+    "id": 5,
+    "name": "Summer Flip Flops",
+    "brand": "WaveStep",
+    "price": 12,
+    "rating": 4.4,
+    "stock": 40,
+    "description": "Comfortable flip flops made for beach walks, pool days, and casual summer wear.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/1_829f7917-4ca1-425a-89e3-a85e786d2f6b.png?v=1777669432",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Aloe Vera Cooling Gel",
+    "brand": "SkinFresh",
+    "price": 9,
+    "rating": 4.7,
+    "stock": 35,
+    "description": "Refreshing aloe vera gel that helps soothe skin after sun exposure.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/1.webp?v=1777669474",
+    "category": "Skincare"
+  },
+  {
+    "id": 7,
+    "name": "Tropical Beach Towel",
+    "brand": "PalmNest",
+    "price": 20,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Soft, quick-dry beach towel with a bright tropical summer design.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/1_5161ff1f-7cf0-403d-a317-b29c636557c8.avif?v=1777669514",
+    "category": "Beach Gear"
+  },
+  {
+    "id": 8,
+    "name": "Mini Handheld Fan",
+    "brand": "BreezeMate",
+    "price": 16,
+    "rating": 4.5,
+    "stock": 22,
+    "description": "Rechargeable handheld fan for staying cool while traveling or outdoors.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/21.webp?v=1777669554",
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "Waterproof Phone Pouch",
+    "brand": "DryGuard",
+    "price": 11,
+    "rating": 4.3,
+    "stock": 50,
+    "description": "Clear waterproof pouch that protects your phone during beach and pool activities.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/22.webp?v=1777669588",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Inflatable Pool Float",
+    "brand": "FloatFun",
+    "price": 28,
+    "rating": 4.8,
+    "stock": 15,
+    "description": "Colorful inflatable pool float for relaxing and having fun in the water.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/23.webp?v=1777669635",
+    "category": "Pool Gear"
+  },
+  {
+    "id": 11,
+    "name": "Lightweight Linen Shirt",
+    "brand": "SunnyStyle",
+    "price": 32,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Breathable linen shirt ideal for casual summer days and vacations.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/24.avif?v=1777669685",
+    "category": "Clothing"
+  },
+  {
+    "id": 12,
+    "name": "Picnic Cooler Bag",
+    "brand": "ChillPack",
+    "price": 38,
+    "rating": 4.7,
+    "stock": 14,
+    "description": "Spacious insulated cooler bag for keeping food and drinks fresh during summer picnics.",
+    "image": "https://cdn.shopify.com/s/files/1/0829/0680/8560/files/Forest_Ferns_Picnic_Cooler_Bag.webp?v=1777669723",
+    "category": "Outdoor"
+  }
+]
