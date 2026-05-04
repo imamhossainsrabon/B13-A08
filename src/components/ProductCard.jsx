@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const ProductCard = ({product}) => {
@@ -11,6 +12,7 @@ const ProductCard = ({product}) => {
                 className="h-56 w-full rounded-xl object-cover aspect-square "
                 width={1000}
                 height={1000}
+                loading="eager"
               />
 
               <div className="mt-5">
@@ -23,12 +25,13 @@ const ProductCard = ({product}) => {
                   <p className="text-orange-500">${product.price}</p>
                 </div>
 
+                <Link href={`products/${product.id}`}>
                 <button
                   type="button"
                   className="cursor-pointer mt-5 w-full rounded-full bg-orange-500 px-6 py-3 font-bold text-white transition hover:bg-orange-600"
                 >
                   View Details
-                </button>
+                </button></Link>
               </div>
         </div>
     );

@@ -33,6 +33,7 @@ const Banner = () => {
             className="h-72 w-full max-w-md rounded-2xl object-cover shadow-lg"
             width={500}
             height={500}
+            loading="eager"
           />
         </div>
       </div>
