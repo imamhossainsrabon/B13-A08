@@ -3,10 +3,10 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className="rounded-3xl bg-orange-50 px-6 py-12 shadow-md sm:px-10 lg:px-16">
+        <div className="rounded-none md:rounded-3xl bg-orange-50 px-6 py-12 shadow-md sm:px-10 lg:px-16">
       <div className="mx-auto grid max-w-6xl items-center gap-8 lg:grid-cols-2">
-        <div>
-          <p className="mb-3 text-sm font-bold uppercase tracking-widest text-orange-500">
+        <div className='text-center lg:text-left'>
+          <p className="mb-3 text-sm font-bold uppercase text-orange-500">
             Summer Sale 50% OFF
           </p>
 
