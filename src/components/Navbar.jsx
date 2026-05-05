@@ -5,9 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { authClient } from "@/lib/auth-client";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
+  const { data: session } = authClient.useSession()
+
+  console.log(session, "sesssion")
 
   return (
     <div className="px-4 py-3 shadow relative z-10">
@@ -27,8 +32,8 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-2 hidden md:flex">
-          <Link href="#"><Button>Sign in</Button></Link>
-          <Link href="#"><Button>Sign up</Button></Link>
+          <Link href="/signin"><Button>Sign in</Button></Link>
+          <Link href="/signup"><Button>Sign up</Button></Link>
         </div>
 
         <button
@@ -47,8 +52,8 @@ const Navbar = () => {
           <Link href="/my-profile" onClick={() => setOpen(false)}>My Profile</Link>
 
           <div className="flex flex-col gap-2">
-            <Link href="#"><Button className="w-full">Sign in</Button></Link>
-            <Link href="#"><Button className="w-full">Sign up</Button></Link>
+            <Link href="/signin"><Button className="w-full">Sign in</Button></Link>
+            <Link href="/signup"><Button className="w-full">Sign up</Button></Link>
           </div>
         </div>
       )}

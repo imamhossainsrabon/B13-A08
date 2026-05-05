@@ -11,7 +11,7 @@ const ProductDetailsPage = async({params}) => {
     const product  = products.find(p => p.id.toString() === id.toString())
     console.log(product, "single product")
     return (
-    <section className="mx-auto max-w-6xl overflow-hidden rounded-3xl bg-white shadow-xl my-30">
+    <div className="mx-auto max-w-7xl overflow-hidden rounded-3xl bg-white shadow-xl my-30">
       <div className="grid md:grid-cols-2">
         <div className="relative min-h-[360px] bg-gradient-to-br from-green-50 to-emerald-100 p-6">
           <div className="absolute left-6 top-6 z-10 rounded-full bg-white px-4 py-2 text-sm font-semibold text-green-700 shadow">
@@ -72,7 +72,7 @@ const ProductDetailsPage = async({params}) => {
           </button>
         </div>
       </div>
-    </section>
+    </div>
     );
 };
 

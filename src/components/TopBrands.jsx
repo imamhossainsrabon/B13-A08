@@ -21,7 +21,7 @@ const TopBrands = () => {
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-2xl bg-white p-6 text-center shadow-md">
               <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 text-2xl font-black text-orange-500">
-                S
+                SS
               </div>
               <h3 className="mt-4 text-xl font-bold text-gray-950">SunShade</h3>
               <p className="mt-2 text-gray-600">
