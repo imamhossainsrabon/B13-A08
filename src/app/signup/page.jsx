@@ -1,6 +1,7 @@
 "use client";
 
 import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
 
 export default function SignUpPage() {
   const handleSubmit = async(e) => {
@@ -100,6 +101,7 @@ export default function SignUpPage() {
             Sign Up
           </button>
         </form>
+        <p className="mt-5 font-medium text-center flex flex-col">Already have an account ? <Link className="bg-red-500 text-white px-3 py-1 mt-5 rounded-full w-max mx-auto" href={'/signin'}>Sign in Here</Link></p>
       </div>
     </div>
   );

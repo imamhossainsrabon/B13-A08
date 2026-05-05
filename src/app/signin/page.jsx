@@ -1,24 +1,34 @@
 "use client";
 
+import GoogleSignInButton from "@/components/GoogleSignInButton";
 import { authClient } from "@/lib/auth-client";
+import Link from "next/link";
+import { useSearchParams, useRouter } from "next/navigation";
 
 export default function SignInPage() {
-  const handleSubmit = async(e) => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackURL = searchParams.get("callbackURL") || "/";
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const email = e.target.email.value
-    const password = e.target.password.value   
+    const email = e.target.email.value;
+    const password = e.target.password.value;
 
-    console.log({email, password});
+    console.log({ email, password });
     const { data, error } = await authClient.signIn.email({
-    email, password
-});
-    if(data){
-        console.log(data)
+      email,
+      password,
+    });
+    if (data) {
+      console.log(data);
+      router.push(callbackURL);
+      
     }
-    if(error){
-        console.log(error)
+    if (error) {
+      console.log(error);
     }
+    
   };
 
   return (
@@ -28,9 +38,7 @@ export default function SignInPage() {
           Sign In
         </h1>
 
-        <p className="text-center text-gray-500 mb-6">
-          Welcome back
-        </p>
+        <p className="text-center text-gray-500 mb-6">Welcome back</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -66,7 +74,18 @@ export default function SignInPage() {
             Sign In
           </button>
         </form>
+        <p className="mt-5 font-medium text-center flex flex-col">
+          Don't have any account ?{" "}
+          <Link
+            className="bg-red-500 text-white px-3 py-1 mt-5 rounded-full w-max mx-auto"
+            href={"/signup"}
+          >
+            Signup Here
+          </Link>
+        </p>
+
+        <GoogleSignInButton/>
       </div>
-    </div>  
+    </div>
   );
 }
