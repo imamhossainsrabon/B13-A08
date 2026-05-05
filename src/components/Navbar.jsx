@@ -22,7 +22,7 @@ const Navbar = () => {
           alt="Logo"
           width={80}
           height={80}
-          loading="eager"
+          
         /></Link>
 
         <div className="hidden md:flex gap-5 font-medium text-lg">
