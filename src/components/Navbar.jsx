@@ -44,7 +44,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu goes down */}
       {open && (
         <div className="md:hidden mt-4 flex flex-col gap-4 absolute right-0 w-full px-5 text-center bg-white shadow rounded-lg p-4">
           <Link href="/" onClick={() => setOpen(false)}>Home</Link>
