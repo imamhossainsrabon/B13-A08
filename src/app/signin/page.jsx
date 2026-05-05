@@ -75,7 +75,7 @@ export default function SignInPage() {
           </button>
         </form>
         <p className="mt-5 font-medium text-center flex flex-col">
-          Don't have any account ?{" "}
+          Don't have any account ?
           <Link
             className="bg-red-500 text-white px-3 py-1 mt-5 rounded-full w-max mx-auto"
             href={"/signup"}
